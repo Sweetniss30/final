@@ -1,0 +1,420 @@
+/***************Color Palette************************
+
+
+Golden Orange-#F27405
+Blush Purple-#D99696
+Slight Off White-#F2E4E8
+Burnt Orange-#BF5B04
+Mauve-#8C5D58
+White: #ffffff;
+Light Grey: #b7b7b7;
+
+****************************************************/
+
+/************Fonts****************
+ Primary Heading 
+  - Cinzel Decorative
+      font family: 'Cinzel Decorative', cursive;
+ 
+  Heading Substitles & subheadings 
+    - Raleway
+            font family: 'Raleway', sans-serif;
+ 
+ Paragraphs
+    - Montserrat Alternatives 
+         font family: 'Montserrat Alternatives', sans-serif;
+
+
+*********************************/
+
+
+
+/*****************Base Styles******************/
+
+ body {
+     background-color: #F2E4E8;
+     font-family: 'Montserrat Alternatives', sans-serif;
+     
+ }
+
+
+
+/*****************Grid************************/
+
+   .full-width {
+       margin: 0 auto;
+       width: 1200px; 
+       
+
+   }
+
+   .half-width {
+       float: left;
+       width: 600px; 
+       
+
+   }
+
+   .third-width {
+       float: left;
+       width: 400px; 
+       
+
+   }
+
+
+/****************Header*********************/
+
+#top-header {
+    height: 25px;
+}
+
+ #top-header h1 {
+    color: #8C5D58;
+    font-family: 'Cinzel Decorative', cursive; 
+    font-size: 30px;
+    font-variant: small-caps;
+    float: left;
+    padding: 5px; 
+    word-spacing: 2px;
+    
+
+}
+
+nav {
+    float: right;
+    padding: 15px 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #8C5D58;
+    font-family: 'Cinzel Decorative', cursive; 
+    font-size: 23px;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding-left: 45px;
+    text-decoration: none;
+}
+
+#hero-header {
+    background: url("../img/flower-glasses.jpg");
+    background-size: cover;
+    clear: both;
+    height: 775px; 
+    
+}
+
+#hero-header #hero-text {
+    padding-top: 35px;
+
+}
+
+#hero-text h2 {
+    margin-left: 75px;
+}
+
+#hero-header h2 {
+    color: #ffffff;
+    font-family: 'Cinzel Decorative', cursive; 
+    font-size: 63px; 
+    padding: 20px 0 20px 25px; 
+    width: 600px;
+
+}
+
+#hero-header h2 span {
+    color: #F27405;
+}
+
+
+
+/****************Work***********************/
+
+ #work {
+     height: 1550px;
+ }
+
+ #work h3 { 
+     color: #F27405;
+     font-family: 'Raleway', sans-serif;
+     font-size: 39px;
+     margin: 40px 0 90px 480px;
+     text-transform: lowercase;
+ }
+
+
+
+            /*******Rogue*********/
+
+ .main-img {
+     border: 1px solid#8C5D58; /***#BF5B04;***/
+ }
+
+ #work #rogue-text {
+     color: #8C5D58;
+     padding-bottom: 85px;
+     
+ }
+
+ #rogue-text h4 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 21px;
+     font-weight: 300;
+     padding-left: 65px;
+     margin: 0 auto;
+
+ }
+
+ #rogue-text h4 span{
+     font-weight: 900;
+     font-size: 24px;
+ }
+
+ #rogue-text p{
+     font-size: 19px;
+     line-height: 25px;
+     padding:  0 30px 60px 65px;
+     text-align: left;
+ }
+
+            /*******Jubilee********/
+
+ #jubilee-text {
+     clear: both;
+     color: #8C5D58;
+ }
+
+ #jubilee-text h4 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 21px; 
+     font-weight: 300; 
+     padding-right: 37px;
+     text-align: right;
+
+ }
+
+ #jubilee-text h4 span {
+     font-weight: 900;
+     font-size: 24px;
+
+ }
+
+ #jubilee-text p {
+     font-size: 19px; 
+     line-height: 25px;
+     padding-right: 30px;
+     text-align: right;
+
+
+ }
+
+ #work #jubilee-icon {
+     margin: 0 auto;
+     padding: 30px 0 0 65px;
+
+ }
+
+            /******Holstee*******/
+
+ #work #holstee-icon {
+     clear: both;
+     margin: 0 auto;
+     padding: 130px 0 0 8px;
+
+ }
+
+ #holstee-text h4 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 21px;
+     font-weight: 300;
+     padding-top: 95px;
+     padding-left: 65px;
+     color: #8C5D58;
+
+ }
+
+ #holstee-text h4 span {
+     font-weight: 900;
+     font-size: 24px;
+
+ }
+
+ #holstee-text p {
+     font-size: 19px;
+     line-height: 25px;
+     text-align: left; 
+     padding-left: 65px;
+     padding-right: 20px;
+     color: #8C5D58;
+
+ }
+
+
+/****************About***********************/
+
+ #about {
+     height: 550px;
+     background: url("../img/about-me.png");
+     background-size: cover;
+ }
+
+ #about h3 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 39px;
+     text-transform: lowercase;
+     color:   #F27405;
+     margin: 35px 0 35px 500px;
+     padding-top: 45px;
+
+ }
+
+ #about p {
+     font-size: 18px;
+     line-height: 28px;
+     margin: auto 0;
+     padding-bottom: 10px;
+
+
+ }
+
+
+ #about p span {
+     font-weight: 800;
+
+ }
+
+
+
+/*******************Contact*********************/
+
+ #contact {
+     height: 400px;
+ }
+
+
+ #contact h3 {
+     color: #F27405;
+     font-family: 'Raleway', sans-serif;
+     font-size: 39px;
+     margin: 40px 0 45px 520px;
+     padding-top: 45px;
+     text-transform: lowercase;
+
+ }
+
+ #contact h4 { 
+     color: #8C5D58;
+     font-size: 24px; 
+     font-weight: 800;
+    
+
+ }
+
+                    /********Email*******/
+    #contact #email-header {
+        padding-left: 100px;
+
+    }
+
+    #contact a {
+        color: #8C5D58;
+        font-size: 20px;
+        padding-left: 20px;
+        text-decoration: none;
+    }
+
+    #contact #light-envelope {
+        font-size: 28px;
+        padding-right: 10px;
+        
+
+    }
+
+
+                    /******Social Media****/
+
+    #contact #socialmedia-header {
+        padding-left: 140px;
+
+    }
+
+    #contact ul {
+        clear: both;
+        list-style: none;
+        padding-left: 60px;
+
+
+    }
+
+    #contact ul li {
+        display: inline-block;
+        padding-right: 10px;
+
+    }
+
+    .fa-github, .fa-linkedin-in, 
+    .fa-twitter {
+        background: #F27405;
+        border-radius: 50%;
+        color: #000000;
+        font-size: 33px;
+        padding: 15px;
+    
+    }
+
+
+
+                    /******Meet Up*********/
+
+    #contact #meet-header {
+        padding-left: 160px;
+
+    }
+
+    #contact p {
+        font-size: 20px;
+        color: #8C5D58;
+        line-height: 21px;
+        text-align: center;
+        padding-left: 50px;
+
+    }
+
+                    /****Dark Button******/
+
+.btn {
+    background-color: #F27405; 
+    border: none;
+    border-radius: 12px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 800px;
+    margin: 60px 0 0 200px;
+    padding: 15px 17px; 
+    text-align: center;
+    
+}
+
+.fa-moon {
+    font-size: 20px;
+    padding-right: 8px; 
+}
+
+
+/************Copyright******************/
+
+#copy {
+    clear: both;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 900px;
+    margin-top: 0 auto;
+    padding-left: 540px;
+    
+}
+ 
+
